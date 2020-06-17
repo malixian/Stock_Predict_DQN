@@ -111,7 +111,7 @@ class MarketEnv(gym.Env):
             pass
         else:
             pass
-
+        # state is stock state range scope
         self.defineState()
         self.currentTargetIndex += 1
 
